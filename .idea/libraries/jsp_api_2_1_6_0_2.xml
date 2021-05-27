@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsp-api-2.1-6.0.2">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-api-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

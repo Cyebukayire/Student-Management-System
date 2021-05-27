@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="javax.servlet.jsp.jstl-1.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-api-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
