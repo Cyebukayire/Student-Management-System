@@ -12,9 +12,9 @@
 <%--        <a href="/students_record/new">Add New Student</a>--%>
 <%--        &nbsp;&nbsp;&nbsp;--%>
 <%--        <a href="/students_record/list">List All Students</a>--%>
-        <a href="/StudentsRecords_war_exploded/new">Add New Student</a>
+        <a href="/Student_Recording_app_war_exploded/new">Add New Student</a>
         &nbsp;&nbsp;&nbsp;
-        <a href="/StudentsRecords_war_exploded/list">List All Students</a>
+        <a href="/Student_Recording_app_war_exploded/list">List All Students</a>
     </h2>
 </center>
 <div align="center">
@@ -32,9 +32,9 @@
                 <td><c:out value="${student.lastName}" /></td>
                 <td><c:out value="${student.gender}" /></td>
                 <td>
-                    <a href="/students_record/edit?id=<c:out value='${student.id}' />">Edit</a>
+                    <a href="/Student_Recording_app_war_exploded/edit?id=<c:out value='${student.id}' />">Edit</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="/students_record/delete?id=<c:out value='${student.id}' />">Delete</a>
+                    <a href="/Student_Recording_app_war_exploded/delete?id=<c:out value='${student.id}' />">Delete</a>
                 </td>
             </tr>
         </c:forEach>
