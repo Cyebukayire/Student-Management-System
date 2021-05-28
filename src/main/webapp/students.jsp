@@ -35,6 +35,8 @@
                     <a href="/Student_Recording_app_war_exploded/edit?id=<c:out value='${student.id}' />">Edit</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="/Student_Recording_app_war_exploded/delete?id=<c:out value='${student.id}' />">Delete</a>
+
+                    <a href="/Student_Recording_app_war_exploded/view?id=<c:out value='${student.id}' />">View</a>
                 </td>
             </tr>
         </c:forEach>

@@ -53,6 +53,9 @@ public class Students extends HttpServlet {
                 case "/update":
                     updateStudent(request, response);
                     break;
+                case "/view":
+                    showDetails(request, response);
+                    break;
                 default:
                     listStudent(request, response);
                     break;
@@ -61,7 +64,15 @@ public class Students extends HttpServlet {
             throw new ServletException(ex);
         }
     }
-
+    private void showDetails(HttpServletRequest request, HttpServletResponse response)
+            throws SQLException, ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Student std = new Student(new Long(id));
+        Student existingStudent = studentDao.getStudent(std);
+        RequestDispatcher dispatcher= request.getRequestDispatcher("details.jsp");
+        request.setAttribute("student", existingStudent);
+        dispatcher.forward(request, response);
+    }
     private void listStudent(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         List<Student> listStudent = studentDao.listAllStudents();
