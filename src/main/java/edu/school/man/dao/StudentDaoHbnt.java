@@ -1,9 +1,9 @@
-package com.example.JspStudentCrud.DB;
+package edu.school.man.dao;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import com.example.JspStudentCrud.models.Student;
-import com.example.JspStudentCrud.utils.HibernateUtil;
+import edu.school.man.model.Student;
+import edu.school.man.utils.HibernateUtil;
 
 public class StudentDaoHbnt {
 
