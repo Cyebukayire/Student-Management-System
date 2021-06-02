@@ -13,7 +13,7 @@
 <%--        &nbsp;&nbsp;&nbsp;--%>
 <%--        <a href="/students_record/list">List All Students</a>--%>
         <a href="/Student_Recording_app_war_exploded/new">Add New Student</a>
-        &nbsp;&nbsp;&nbsp;
+
         <a href="/Student_Recording_app_war_exploded/list">List All Students</a>
     </h2>
 </center>

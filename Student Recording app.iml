@@ -53,5 +53,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
     <orderEntry type="library" name="el-api" level="project" />
     <orderEntry type="library" name="javax.servlet.jsp.jstl-1.2.1" level="project" />
+    <orderEntry type="library" name="antlr-2.7.7" level="project" />
   </component>
 </module>
