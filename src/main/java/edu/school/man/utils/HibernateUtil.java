@@ -16,9 +16,9 @@ public class HibernateUtil {
                 Configuration configuration = new Configuration();
                 Properties settings = new Properties();
                 settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/javaPractice?characterEncoding=utf8");
+                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/java?characterEncoding=utf8");
                 settings.put(Environment.USER, "root");
-                settings.put(Environment.PASS, "Passfox@123");
+                settings.put(Environment.PASS, "Peace@123");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
                 settings.put(Environment.SHOW_SQL, "true");
                 settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
