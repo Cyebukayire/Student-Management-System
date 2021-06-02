@@ -4,7 +4,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
-import com.example.JspStudentCrud.models.Student;
+import edu.school.man.model.Student;
 
 import java.util.Properties;
 
