@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import edu.school.man.model.Student;
 public class StudentDao {
-    private String jdbcURL="jdbc:mysql://localhost:3306/student_db";
+    private String jdbcURL="jdbc:mysql://localhost:3306/java";
     private String jdbcUsername="root";
-    private String jdbcPassword="A@be123he";
+    private String jdbcPassword="Peace@123";
     private Connection jdbcConnection;
     public StudentDao(String jdbcURL, String jdbcUsername, String jdbcPassword) {
         this.jdbcURL = jdbcURL;
