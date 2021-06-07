@@ -15,7 +15,7 @@ import edu.school.man.dao.StudentDaoHbnt;
 import edu.school.man.model.Student;
 
 /**
- * Servlet implementation class Students
+ * Servlet implementation class   Students
  */
 
 @WebServlet("/")
